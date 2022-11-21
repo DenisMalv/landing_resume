@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/landing_resume/static/css/main.b892ae46.css",
-    "main.js": "/landing_resume/static/js/main.3145e7f7.js",
+    "main.js": "/landing_resume/static/js/main.85feb59e.js",
     "static/media/denis-hero.jpg": "/landing_resume/static/media/denis-hero.22f324cd3188d84a2a20.jpg",
-    "static/media/symbol-defs.svg": "/landing_resume/static/media/symbol-defs.38edb49921506b928a432df88ac835c9.svg",
+    "static/media/symbol-defs.svg": "/landing_resume/static/media/symbol-defs.1547eb591655aa6d5479b94ab00e0903.svg",
     "static/media/denis-contacts.jpg": "/landing_resume/static/media/denis-contacts.ab4e8f4f2f20bf6533d5.jpg",
     "static/media/project-finder.jpg": "/landing_resume/static/media/project-finder.7380ca254fb2d178ae72.jpg",
     "static/media/project-filmoteka.jpg": "/landing_resume/static/media/project-filmoteka.a40e672a1bbf63ceae21.jpg",
@@ -11,10 +11,10 @@
     "static/media/project-wallet.jpg": "/landing_resume/static/media/project-wallet.8bb5c79d5c059953f0a9.jpg",
     "index.html": "/landing_resume/index.html",
     "main.b892ae46.css.map": "/landing_resume/static/css/main.b892ae46.css.map",
-    "main.3145e7f7.js.map": "/landing_resume/static/js/main.3145e7f7.js.map"
+    "main.85feb59e.js.map": "/landing_resume/static/js/main.85feb59e.js.map"
   },
   "entrypoints": [
     "static/css/main.b892ae46.css",
-    "static/js/main.3145e7f7.js"
+    "static/js/main.85feb59e.js"
   ]
 }
