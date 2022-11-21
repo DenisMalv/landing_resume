@@ -1,0 +1,25 @@
+:root {
+    /* Font family         */
+    --main-font: 'Roboto', sans-serif;
+    --logo-font: 'Raleway', sans-serif;
+    /* Text color variable */
+    --text-color-accent: #2196f3;
+    --text-color-standart: #757575;
+    --text-color-pureblack: #000000;
+    --text-color-black: #212121;
+    --text-color-white: #ffffff;
+    --text-color-address-link: rgba(255, 255, 255, 0.6);
+  
+    /* button color variable */
+  
+    /* <-------button-hero-----------> */
+    --button-backgr-color: #2196f3;
+    --button-main-active-bcgr-color: #188ce8;
+    /* <--------button-portfolio-------> */
+    --button-bcgr-color: #f5f4fa;
+    --button-portf-active-bcgr-color: #2196f3;
+  
+    /* background color variable */
+    --color-team-backgr: #f5f4fa;
+    --color-footer-backgr: #2f303a;
+  }
