@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/test_2/static/css/main.b892ae46.css",
-    "main.js": "/test_2/static/js/main.b9b7ec99.js",
-    "static/media/denis-hero.jpg": "/test_2/static/media/denis-hero.22f324cd3188d84a2a20.jpg",
-    "static/media/symbol-defs.svg": "/test_2/static/media/symbol-defs.1547eb591655aa6d5479b94ab00e0903.svg",
-    "static/media/denis-contacts.jpg": "/test_2/static/media/denis-contacts.ab4e8f4f2f20bf6533d5.jpg",
-    "static/media/project-finder.jpg": "/test_2/static/media/project-finder.7380ca254fb2d178ae72.jpg",
-    "static/media/project-filmoteka.jpg": "/test_2/static/media/project-filmoteka.a40e672a1bbf63ceae21.jpg",
-    "static/media/project-courses.jpg": "/test_2/static/media/project-courses.df00e3173574d54e4120.jpg",
-    "static/media/project-wallet.jpg": "/test_2/static/media/project-wallet.8bb5c79d5c059953f0a9.jpg",
-    "index.html": "/test_2/index.html",
-    "main.b892ae46.css.map": "/test_2/static/css/main.b892ae46.css.map",
-    "main.b9b7ec99.js.map": "/test_2/static/js/main.b9b7ec99.js.map"
+    "main.css": "/landing_resume/static/css/main.b892ae46.css",
+    "main.js": "/landing_resume/static/js/main.85feb59e.js",
+    "static/media/denis-hero.jpg": "/landing_resume/static/media/denis-hero.22f324cd3188d84a2a20.jpg",
+    "static/media/symbol-defs.svg": "/landing_resume/static/media/symbol-defs.1547eb591655aa6d5479b94ab00e0903.svg",
+    "static/media/denis-contacts.jpg": "/landing_resume/static/media/denis-contacts.ab4e8f4f2f20bf6533d5.jpg",
+    "static/media/project-finder.jpg": "/landing_resume/static/media/project-finder.7380ca254fb2d178ae72.jpg",
+    "static/media/project-filmoteka.jpg": "/landing_resume/static/media/project-filmoteka.a40e672a1bbf63ceae21.jpg",
+    "static/media/project-courses.jpg": "/landing_resume/static/media/project-courses.df00e3173574d54e4120.jpg",
+    "static/media/project-wallet.jpg": "/landing_resume/static/media/project-wallet.8bb5c79d5c059953f0a9.jpg",
+    "index.html": "/landing_resume/index.html",
+    "main.b892ae46.css.map": "/landing_resume/static/css/main.b892ae46.css.map",
+    "main.85feb59e.js.map": "/landing_resume/static/js/main.85feb59e.js.map"
   },
   "entrypoints": [
     "static/css/main.b892ae46.css",
-    "static/js/main.b9b7ec99.js"
+    "static/js/main.85feb59e.js"
   ]
 }

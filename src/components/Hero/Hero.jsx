@@ -8,14 +8,19 @@ const Hero = () =>{
 
     return(
         <section className="hero">
-            <h1>Hello! I’m Denis Malniev!</h1>
-            <h3>Frontend (React.js) Developer</h3>
-            <Button className={''} text={'Contact me'} type={'button'}/>
-            <Button className={''} text={'Download CV'} type={''}/>
-            <img src={img.denisHero} alt="" />
-            <svg>
+            <div className='wrapper wrapper__hero'>
+                <div className=''>
+                    <h1 className='title title__hero'>Hello! I’m Denis Malniev!</h1>
+                    <h3 className='subtitle '>Frontend (React.js) Developer</h3>
+                    <Button className={'btn btn--accent '} text={'Contact me'} type={'button'}/>
+                    <Button className={'btn btn__border--accent ml-28'} text={'Download CV'} type={'button'}/>
+                </div>
+                <img className='hero__img' src={img.denisHero} alt="" />
+            </div>
+            
+            {/* <svg>
                 <use></use>
-            </svg>
+            </svg> */}
         </section> 
     )
 }
