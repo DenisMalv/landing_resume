@@ -1,7 +1,7 @@
-const ListItem =({id,text,wrapClass}) =>{
+const ListItem =({id,wrapClass,children}) =>{
 
     return (
-        <li className={wrapClass}>{text}</li>
+        <li className={wrapClass}>{children}</li>
     )
 }
 
