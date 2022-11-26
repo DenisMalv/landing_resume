@@ -12,7 +12,7 @@ export const expectationItems = [
     {id:nanoid(3), type:'position',text:'FrontEnd Developer'},
     {id:nanoid(3), type:'work',text:'Remotely, Full-Time'},
     {id:nanoid(3), type:'salary',text:'$600+'},
-    {id:nanoid(3), type:'work with',text:'JS,React,Redux,Node.js'},
+    {id:nanoid(3), type:'work with',text:'JS, React, Redux, Node.js'},
 ]
 
 export const techSkills = [

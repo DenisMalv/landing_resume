@@ -18,7 +18,8 @@ const Layout = () =>{
 
 
     return(
-        <MainContainer>
+        // <MainContainer>
+        <>
             <Header/>
             <Hero/>
             <Expectations/>
@@ -27,7 +28,8 @@ const Layout = () =>{
             <Projects/>
             <Contacts/>
             <Footer/>
-        </MainContainer>
+        </>
+        // </MainContainer>
     )
 }
 

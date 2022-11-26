@@ -1,0 +1,24 @@
+.header{
+    & .list{
+        display: flex;
+        gap: 32px;
+        justify-content: center;
+        position: absolute;
+        top: 42px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    & .list__item{
+
+    }
+
+    & .list__link{
+
+    }
+
+    & .list__icon{
+
+
+    }
+}

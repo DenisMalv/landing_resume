@@ -1,9 +1,9 @@
 import { Outlet } from "react-router-dom"
 
-const MainContainer = ({children}) =>{
+const MainContainer = ({children,wrapClass}) =>{
 
     return (
-        <div className="main-container">
+        <div className={`main-container ${wrapClass ? wrapClass : ''}`}>
             <Outlet/>
             {children}
         </div>

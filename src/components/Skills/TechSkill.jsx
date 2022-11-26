@@ -3,11 +3,20 @@ import TechSkillsItem from "../CoreComponents/TechSkillsItem"
 
 const TechSkills = ()=>{
     return  (
-        <div>
-            <h2>Tech Skills</h2>
-            <ul>
-                {techSkills.map(({id,name,svgSprite,svgHash})=>
-                    <TechSkillsItem id={id}name={name}svgSprite={svgSprite} svgHash={svgHash} key={id}/>)}
+        <div className="skills-tech__wrapper">
+            <h2 className='skills__title'>Tech Skills</h2>
+            <ul className="skills-tech__list list">
+                {techSkills.map(({id,name,svgSprite,svgHash},idx)=>
+                    <TechSkillsItem 
+                        wrapClass='skills-tech__item' 
+                        id={id}
+                        name={name}
+                        svgSprite={svgSprite} 
+                        svgHash={svgHash}
+                        idx={idx} 
+                        key={id}
+                    />)
+                }
             </ul>
         </div>
     )

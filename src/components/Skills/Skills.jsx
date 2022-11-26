@@ -2,17 +2,22 @@
 
 import TechSkills from './TechSkill'
 import SoftSkills from './SoftSkills'
+import MainContainer from 'components/CoreComponents/MainContainer'
+import Languages from './Languages'
 
 
 const Skills = () =>{
 
 
     return(
-        <section>
-            <TechSkills/>
-            <div>
-                <SoftSkills/>
-            </div>
+        <section className='skills'>
+            <MainContainer wrapClass={'skills-container'}>
+                <TechSkills/>
+                <div className='skills-wrapper'>
+                    <SoftSkills/>
+                    <Languages/>
+                </div>
+            </MainContainer>
         </section>
     )
 }

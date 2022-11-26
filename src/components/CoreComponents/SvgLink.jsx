@@ -2,9 +2,9 @@
 
 const ContactLink = ({link,svgSprite,svgHash}) =>{
     return (
-        <li>
-            <a href={link}>
-                <svg width="30" height="30">
+        <li className="list__item">
+            <a href={link} className='list__link'>
+                <svg width="30" height="30" className="list__icon">
                     <use href={svgSprite + svgHash}></use>
                 </svg>
             </a>
