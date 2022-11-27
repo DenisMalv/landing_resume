@@ -46,14 +46,15 @@ export const languages = [
 ]
 
 export const workExpirience = [
-    {id:nanoid(3), type:'work', company:'Worker, McDonalds Ukraine LTD', position:'Training Instructor', from:'May 2016', to:'up to now', country:'Ukraine'},
-    {id:nanoid(3), type:'work', company:'GoIT', position:'Mentor', from:'July 2022', to:'up to now',country:'Ukraine'},
     {id:nanoid(3), type:'work', company:'CGP Systems sro', position:'Front-end Developer (React)', from:'July 2022', to:'November 2022',country:'Ukraine'},
+    {id:nanoid(3), type:'work', company:'GoIT', position:'Mentor', from:'July 2022', to:'up to now',country:'Ukraine'},
+    {id:nanoid(3), type:'work', company:'Worker, McDonalds Ukraine LTD', position:'Training Instructor', from:'May 2016', to:'up to now', country:'Ukraine'},
 ]
 
 export const studyExpirience = [
-    {id:nanoid(3), type:'study', company:'Kryvyi Rih National University', position:'Mining Faculty, Magister of mining', from:'September 2010', to:'June 2015',country:'Ukraine'},
     {id:nanoid(3), type:'study', company:'GoIT', position:'Full Stack developer', from:'March 2021', to:'July 2022',country:'Ukraine'},
+    {id:nanoid(3), type:'study', company:'Kryvyi Rih National University', position:'Mining Faculty, Magister of mining', from:'September 2010', to:'June 2015',country:'Ukraine'},
+   
 ]
 
 export const projects = [

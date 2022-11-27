@@ -1,0 +1,64 @@
+.expirience {
+    padding-top: 130px;
+    padding-bottom: 130px;
+
+    &__container {
+        display: flex;
+        justify-content: center;
+        gap: 130px;
+
+        background-image: url(../img/expirience_arrow.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+
+        min-height: 700px;
+    }
+
+    &__list{
+        display: flex;
+        flex-direction: column;
+        gap: 54px;
+    }
+
+    &__item{
+        // background: #FFFFFF;
+        min-width: 440px;
+        padding: 15px 22px;
+        box-shadow: var(--main-shadow);
+        border-radius: 8px;
+
+        line-height: 2;
+
+        position: relative;
+    }
+
+    &__description{
+       
+        &-company{
+            
+        }
+        &-position{
+            font-weight: 700;
+            font-style: 24px;
+            line-height: 1.8;
+        }
+        &-time{
+            
+        }
+    } 
+
+    & svg.study{
+        position: absolute;
+        top: 44px;
+        left: -80px;
+        
+    }
+    & svg.work{
+        position: absolute;
+        top: -8px;
+        right: -84px;
+        width: 550px;
+
+    }
+}

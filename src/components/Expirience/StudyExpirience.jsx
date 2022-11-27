@@ -3,11 +3,14 @@ import ExperienceItem from "../CoreComponents/ExperienceItem";
 
 const StudyExpirience = () =>{
     return (
-        <ul>
-            {studyExpirience.map(({id,type,company,position,from,to,country})=>
-                <ExperienceItem id={id} type={type} company={company} position={position} from={from} to={to} country={country} key={id}/>
-            )}
-        </ul>
+        <div>
+            <h2 className='skills__title mb-22'>Study expirience</h2>
+            <ul className="expirience__list list h-88">
+                {studyExpirience.map(({id,type,company,position,from,to,country},idx)=>
+                    <ExperienceItem id={id} type={type} company={company} position={position} from={from} to={to} country={country} key={id} wrapClass={`${idx === 0 ? 'mt-auto' : ''} ${idx === studyExpirience.length -1 ? 'mb-22' : ''} study`}/>
+                )}
+            </ul>
+        </div>
     )
 }
 
