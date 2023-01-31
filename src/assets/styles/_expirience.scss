@@ -1,18 +1,18 @@
 .expirience {
     padding-top: 130px;
     padding-bottom: 130px;
-    background: linear-gradient(to right,  transparent 0%, transparent 49.99%, red 1px, transparent 50.1%, transparent 100%,),
-    linear-gradient(to right,  transparent 0%, transparent 49.99%, red 1px, transparent 50.1%, transparent 100%,),
-    linear-gradient(to right,  transparent 0%, transparent 49.99%, red 1px, transparent 50.1%, transparent 100%,);
+    // background: linear-gradient(to right,  transparent 0%, transparent 49.99%, red 1px, transparent 50.1%, transparent 100%,),
+    // linear-gradient(to right,  transparent 0%, transparent 49.99%, red 1px, transparent 50.1%, transparent 100%,),
+    // linear-gradient(to right,  transparent 0%, transparent 49.99%, red 1px, transparent 50.1%, transparent 100%,);
 
     &__container {
         display: flex;
         gap: 158px;
 
-        background-image: url(../img/expirience_arrow.svg);
-        background-repeat: no-repeat;
-        background-position: top 35px left 50% ;
-        background-size: contain;
+        // background-image: url(../img/expirience_arrow.svg);
+        // background-repeat: no-repeat;
+        // background-position: top 35px left 50% ;
+        // background-size: contain;
 
         min-height: 700px;
     }
@@ -21,10 +21,24 @@
         display: flex;
         flex-direction: column;
         gap: 54px;
+        position: relative;
+    }
+
+    &__study::before{
+        content: '';
+        position: absolute;
+        width: 700px;
+        height: 20px;
+        background-image: url(../img/expirience_arrow.svg);
+        background-repeat: no-repeat;
+        background-position: top 58px left 568px;
+        background-size: contain;
+
+        min-height: 700px;
     }
 
     &__item{
-        // background: #FFFFFF;
+        
         min-width: 440px;
         padding: 15px 22px;
         box-shadow: var(--main-shadow);

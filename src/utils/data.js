@@ -58,8 +58,8 @@ export const studyExpirience = [
 ]
 
 export const projects = [
-    {id:nanoid(3), img:img.projectWallet, title:'Project WALLET', tecnologies:'[React / Redux / REST.API / Node.js]', description:'Group project. Wallet for for counting expenses.'},
-    {id:nanoid(3), img:img.projectFilmoteka, title:'Film library', tecnologies:'[JavaScript / HTML5 / CSS3]', description:'Group project. Two-page film library website. Role web-developer. Implemented, REST API work, custom pagination.'},
-    {id:nanoid(3), img:img.projectFinder, title:'Image Finder', tecnologies:'[JavaScript / HTML5 / CSS3]', description:'Individual project. Working whith REST API Pixabay.'},
-    {id:nanoid(3), img:img.projectCourses, title:'HellEN', tecnologies:'[HTML5 / CSS3 / SCSS]', description:'Group project, about English language courses. Role of the team leader.'},
+    {id:nanoid(3), img:img.projectWallet, title:'Project WALLET', technologies:'[React / Redux / REST.API / Node.js]', description:'Group project. Wallet for for counting expenses.'},
+    {id:nanoid(3), img:img.projectFilmoteka, title:'Film library', technologies:'[JavaScript / HTML5 / CSS3]', description:'Group project. Two-page film library website. Role web-developer. Implemented, REST API work, custom pagination.'},
+    {id:nanoid(3), img:img.projectFinder, title:'Image Finder', technologies:'[JavaScript / HTML5 / CSS3]', description:'Individual project. Working whith REST API Pixabay.'},
+    {id:nanoid(3), img:img.projectCourses, title:'HellEN', technologies:'[HTML5 / CSS3 / SCSS]', description:'Group project, about English language courses. Role of the team leader.'},
 ]
